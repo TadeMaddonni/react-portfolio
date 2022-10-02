@@ -2,6 +2,7 @@ $main-color: #15023a;
 
 $width: 768px;
 $tabletWidth: 1025px;
+$xl-desktop: 1900px;
 
 @mixin mobile {
     @media (max-width: #{$width}) {
@@ -11,6 +12,12 @@ $tabletWidth: 1025px;
 
 @mixin tablet {
     @media (max-width: #{$tabletWidth}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: #{$xl-desktop}) {
         @content;
     }
 }
