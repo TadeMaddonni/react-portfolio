@@ -36,6 +36,7 @@
         flex-wrap: wrap;
 
         @include mobile {
+            flex-direction: column;
             width: 90%;
             gap: 5px;
         }
@@ -55,7 +56,7 @@
             cursor: pointer;
 
             @include mobile {
-                width: 130px;
+                width: 160px;
                 height: 100px;
             }
 
@@ -63,6 +64,10 @@
                 position: absolute;
                 font-size: 20px;
                 text-align: center;
+
+                @include mobile {
+                    font-size: 12px;
+                }
             }
 
             img {
