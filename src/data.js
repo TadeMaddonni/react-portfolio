@@ -25,12 +25,16 @@ export const portfolioData = [
     },
 ];
 
-
 export const skills = [
     {
         name: "Javascript",
         desc: "ES6 & more",
         img: "assets/js.png",
+    },
+    {
+        name: "ReactJs",
+        desc: "Interactive UI's, with effieciently update render",
+        img: "assets/react.png",
     },
     {
         name: "HTML",
@@ -46,11 +50,6 @@ export const skills = [
         name: "SASS",
         desc: "CSS pre-processor using SCSS syntax",
         img: "assets/sass.png",
-    },
-    {
-        name: "ReactJs",
-        desc: "Interactive UI's, with effieciently update render",
-        img: "assets/react.png",
     },
     {
         name: "npm",
