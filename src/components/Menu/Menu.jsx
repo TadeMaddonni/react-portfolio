@@ -12,10 +12,26 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#works">Works</a>
+                    <a className="workLink" href="#works">
+                        Works
+                    </a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
-                    <a href="#testimonials">Testimonials</a>
+                    <a href="#testimonials">Skills</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <ul className="mobileMenu">
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#intro">Home</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li onClick={() => setMenuOpen(false)}>
+                    <a href="#testimonials">Skills</a>
                 </li>
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#contact">Contact</a>

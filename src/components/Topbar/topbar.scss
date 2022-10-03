@@ -39,6 +39,14 @@
                 span {
                     font-size: 14px;
                     font-weight: 500;
+
+                    a {
+                        font-size: inherit;
+                        text-decoration: none;
+                        color: inherit;
+                        cursor: pointer;
+                        
+                    }
                 }
             }
 
