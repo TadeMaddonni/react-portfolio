@@ -21,6 +21,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            height: 100%;
 
             .itemContainer {
                 margin-inline: 20px;
@@ -28,13 +29,23 @@
                 justify-content: center;
                 align-items: center;
                 gap: 5px;
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: $main-color;
+                    font-size: 14px;
+                    font-weight: 500;
+                    gap: 5px;
+                }
 
                 @include mobile {
                     display: none;
                 }
 
                 .icon {
-                    font-size: 18px;
+                    font-size: 22px;
                 }
                 span {
                     font-size: 14px;
@@ -45,7 +56,6 @@
                         text-decoration: none;
                         color: inherit;
                         cursor: pointer;
-                        
                     }
                 }
             }

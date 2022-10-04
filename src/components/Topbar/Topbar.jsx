@@ -1,7 +1,7 @@
 import React from "react";
 import "./topbar.scss";
-import PersonIcon from "@mui/icons-material/Person";
 import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Topbar = ({ menuOpen, setMenuOpen }) => {
     return (
@@ -12,13 +12,22 @@ const Topbar = ({ menuOpen, setMenuOpen }) => {
                         tadeo.
                     </a>
                     <div className="itemContainer">
-                        <PersonIcon className="icon" />
-                        <span>+54 9 11 3395 1506</span>
+                        <a
+                            href="https://www.linkedin.com/in/tadeo-maddonni-899836236/"
+                            target="blanck"
+                            className=""
+                        >
+                            <LinkedInIcon className="icon" />
+                            Linkedin
+                        </a>
                     </div>
                     <div className="itemContainer">
                         <EmailIcon className="icon" />
                         <span>
-                            <a className="emailTo" href="mailto:tadeomaddonni@gmail.com">
+                            <a
+                                className="emailTo"
+                                href="mailto:tadeomaddonni@gmail.com"
+                            >
                                 tadeomaddonni@gmail.com
                             </a>
                         </span>
