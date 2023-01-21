@@ -1,25 +1,31 @@
 export const portfolioData = [
     {
+        title: "React Bank App simulator",
+        img: "https://i.postimg.cc/C51ZRxqw/bankapp.png",
+        desc: "React practice bank app using an API. ",
+        repo: "https://github.com/TadeMaddonni/bankapp.git",
+    },
+    {
         title: "React sim E-commerce",
-        img: "https://i.ibb.co/QJ4ZnmQ/practice-ecommerce.png",
+        img: "https://i.postimg.cc/DwpNtj20/practice.png",
         desc: "React practice ecommerce using context, state, localStorage, React-router-DOM & more",
         repo: "https://github.com/TadeMaddonni/PracticeEcommerce",
     },
     {
         title: "React & Firebase E-commerce",
-        img: "https://i.ibb.co/jkyKjHM/react-ecomm.png",
+        img: "https://i.postimg.cc/fb6rbVSh/reactecommerce.png",
         desc: "React simulation ecommerce using context, state, firebase, localStorage, React-router-DOM & more",
         repo: "https://github.com/TadeMaddonni/ecomm-tadeomaddonni",
     },
     {
         title: "JS Vanilla simulator",
-        img: "https://i.ibb.co/J2gS6qP/tecno-js.png",
+        img: "https://i.postimg.cc/pXqcFG5C/tecnoarg.png",
         desc: "E-commerce simulator using pure JavaScript vanilla, signup and loginform, cart, payment sim & form validation",
         repo: "https://github.com/TadeMaddonni/Tecno",
     },
     {
         title: "HTML & SCSS Site",
-        img: "https://i.ibb.co/Yfx1pHR/psicologa.png",
+        img: "https://i.postimg.cc/rsGb3qm2/htmlcsss.png",
         desc: "Static site using only HTML and SASS(scss) also form validation with formspree.io",
         repo: "https://github.com/TadeMaddonni/psicologia-tadeomaddonni",
     },
